@@ -172,7 +172,7 @@ export function PostPage({ post, state }: PostPageProps) {
   return (
     <div className={`post ${post.pathname.substring(1)}`}>
       {state.showHeaderOnPostPage && state.header}
-      <div class="max-w-screen-sm px-6 pt-8 mx-auto">
+      <div class="max-w-screen-lg px-6 pt-8 mx-auto">
         <div class="pb-16">
           <a
             href="/"
