@@ -34,6 +34,12 @@ export { default as removeMarkdown } from "https://esm.sh/remove-markdown@0.5.0"
 
 // Add syntax highlighting support for C by default
 import "https://esm.sh/prismjs@1.29.0/components/prism-c?no-check";
+import "https://esm.sh/prismjs@1.27.0/components/prism-c?no-check";
+import "https://esm.sh/prismjs@1.27.0/components/prism-typescript?no-check";
+import "https://esm.sh/prismjs@1.27.0/components/prism-go?no-check";
+import "https://esm.sh/prismjs@1.27.0/components/prism-rust?no-check";
+import "https://esm.sh/prismjs@1.27.0/components/prism-bash?no-check";
+import "https://esm.sh/prismjs@1.27.0/components/prism-python?no-check";
 
 export { ColorScheme, UnoCSS };
 export type UnoConfig = typeof UnoCSS extends (
