@@ -62,7 +62,7 @@ export function Index({ state, posts }: IndexProps) {
             </h1>
             {state.description && (
               <p
-                class="mt-2 text-center text-lg text-gray-600"
+                class="text-lg text-gray-600 dark:text-gray-400 text-center mt-2"
                 style={{ color: state.coverTextColor }}
               >
                 {state.description}
@@ -105,7 +105,7 @@ export function Index({ state, posts }: IndexProps) {
       )}
 
       <div class="max-w-screen-sm px-6 mx-auto">
-        <div class="mt-8 pt-16 lt-sm:pt-12 border-t-1 border-gray-300/80">
+        <div class="pt-16 lt-sm:pt-12 border-t-1 border-gray-300/80">
           {postIndex.map((post) => (
             <PostCard
               post={post}
